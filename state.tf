@@ -1,8 +1,8 @@
 terraform{
     backend "s3" {
-        bucket = "terraformpipelinebucket"
+        bucket = "mybucketforconsole"
         encrypt = true
-        key = "terraform.tfstate"
+        key = "terraform.tfstates"
         region = "us-east-1"
     }
 }
